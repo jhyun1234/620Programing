@@ -4,25 +4,12 @@
 int main()
 {
 	
-	int a, b, c,d;
+	double a, b, c;
 
-	scanf("%d", &a);
-	scanf("%d %d %d", &b, &c, &d);
-
-	printf("%d\n", a * b);
-	printf("%d\n", a * c);
-	printf("%d\n", a * d);
-
-	int e = a * b;
-	int f = a * c;
-	int g = a * d;
-	int h = e + f + g;
-	printf("%d\n", h);
+	scanf("%lf %lf %lf", &a,&b,&c);
 	
-
+	printf("%lf",(double)a+b+c);
 	
-	
-
 
 	return 0;
 }
