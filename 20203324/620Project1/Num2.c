@@ -3,22 +3,15 @@
 
 int main()
 {
-	int H,M;
-
-	scanf("%d %d", &H,&M);
-
-	if(H>12 && M>60)
+	int n=0;
+	int j = 0;
+	scanf("%d", &n);
+	for (int i = 0; i <= n; i++)
 	{
 		
-		printf("%d %d", H+1, M-45);
+		j += n;
+		printf("%d\n",j);
 	}
-	else if(H>=12 && M>=59)
-	{
-		printf("%d %d", H, M);
-	}
-	else
-	{
-		printf("%d %d", H, M);
-	}
+
 	return 0;
 }
